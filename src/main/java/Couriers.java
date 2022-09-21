@@ -12,11 +12,6 @@ public class Couriers {
     public Couriers() {
     }
 
-    public Couriers(String login, String password) {
-        this.login = login;
-        this.password = password;
-    }
-
     public Couriers(String password) {
         this.password = password;
     }
@@ -44,4 +39,5 @@ public class Couriers {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
+
 }
